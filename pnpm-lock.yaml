@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@nx/nx-linux-x64-gnu':
+      '@nx/nx-darwin-x64':
         specifier: 16.5.3
         version: 16.5.3
     devDependencies:
@@ -73,8 +73,6 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: true
-    optional: true
 
   /@nx/nx-freebsd-x64@16.5.3:
     resolution: {integrity: sha512-FyJ2xUBPifO0y9LoVuS0CjwN+GGsYSy+O1y541eh8j4Y86/xcPx0j+fhHhh3MDnKA9ftjbq+vrqgs84NHmIAAw==}
@@ -117,6 +115,9 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
 
   /@nx/nx-linux-x64-musl@16.5.3:
     resolution: {integrity: sha512-jM2igA26dd0YVj9w/Pv2x3ZUUziVP4H3rFzYDAd80sQqLYWqELr6Fljyvj/2C+o+mOfVcw85+yfessjlPz8K8Q==}
