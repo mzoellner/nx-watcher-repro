@@ -16,7 +16,7 @@ importers:
         specifier: 16.5.2
         version: 16.5.2
 
-  packages/backup-service:
+  packages/app:
     dependencies:
       lib:
         specifier: workspace:*
