@@ -1,4 +1,4 @@
-const { Watcher } = require("@nx/nx-linux-x64-gnu");
+const { Watcher } = require("@nx/nx-win32-x64-msvc");
 let watcher = new Watcher(process.cwd(), [""]);
 
 process.on("SIGTERM", () => {

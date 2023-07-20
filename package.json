@@ -7,7 +7,7 @@
   },
   "private": true,
   "dependencies": {
-    "@nx/nx-linux-x64-gnu": "16.5.3"
+    "@nx/nx-win32-x64-msvc": "16.5.3"
   },
   "devDependencies": {
     "nx": "16.5.3"

@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@nx/nx-linux-x64-gnu':
+      '@nx/nx-win32-x64-msvc':
         specifier: 16.5.3
         version: 16.5.3
     devDependencies:
@@ -117,6 +117,9 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
 
   /@nx/nx-linux-x64-musl@16.5.3:
     resolution: {integrity: sha512-jM2igA26dd0YVj9w/Pv2x3ZUUziVP4H3rFzYDAd80sQqLYWqELr6Fljyvj/2C+o+mOfVcw85+yfessjlPz8K8Q==}
@@ -142,8 +145,6 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: true
-    optional: true
 
   /@parcel/watcher@2.0.4:
     resolution: {integrity: sha512-cTDi+FUDBIUOBKEtj+nhiJ71AZVlkAsQFuGQTun5tV9mwQBQgZvhCzG+URPQc8myeN32yRVZEfVAPCs1RW+Jvg==}
