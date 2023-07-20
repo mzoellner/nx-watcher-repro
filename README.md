@@ -4,7 +4,7 @@
 
 # Run watcher
 
-- Run `npm run watcher`
+- Run `pnpm run watcher`
 
 # Broken state
 
